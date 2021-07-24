@@ -1,0 +1,45 @@
+:root{
+    --letrasTitulo:1em;
+    --colorIni1:rgba(0, 0, 255, 0.404);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* parte de la seccion del header */
+header{
+    border: 1px solid red;
+    width: 100%;
+    background-color: var(--colorIni1);
+}
+
+.primeraSeccion{
+    border: 1px solid red;
+    display: flex;
+
+}
+
+header nav{
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+}
+
+header nav ul{
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* quotar los botones de las listas */
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
