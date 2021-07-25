@@ -70,7 +70,8 @@ ul.slider{
 }
 /* Tamaño de las imagenes*/
 ul.slider li img{
-  width: 1265px;
+  width: auto;
+  width: 1355px;
   height: 400px;
   object-fit: cover;
 }
