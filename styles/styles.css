@@ -1,7 +1,8 @@
-:root{
+/* :root{
    /*  --letrasTitulo:1em;
-    --colorIni1:rgba(0, 0, 255, 0.404); */
-}
+    --colorIni1:rgba(0, 0, 255, 0.404); 
+}*/
+
 
 *{
     margin: 0;
@@ -12,11 +13,99 @@
 /* slider */
 
 
+.texto-encima{
+ text-transform: uppercase;
+  color: white;
+  font-size: 60px;
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.boton{
+  background-color: rgba(255, 255, 255, 0.212);
+  font-size: large;
+  position: absolute;
+    height: 30px;
+    width: 300px;
+    top: 250px;
+    left: 80px;
+    border-radius: 20px;
+    border-color: rgb(71, 71, 71);
+    font-family: 'Mukta', sans-serif;
+    
+}
 
 
+.Contaier{
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    
+  
+}
 
+ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
 
+ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+  
+  ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+/* Tamaño de las imagenes*/
+ul.slider li img{
+  width: 1265px;
+  height: 400px;
+  object-fit: cover;
+}
 
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu{
+  text-align: center;
+  margin: 120px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+  
+  
+}
 
 
 /* conteiner lo mas destacado---- */
