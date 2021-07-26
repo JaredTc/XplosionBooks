@@ -85,12 +85,11 @@ ul.slider li:target {
 }
 
 .menu{
-  position: absolute;
-  top: 375px;
-  left: 490px;
+  /*position: absolute;*/
+  /* top: 375px;
+  left: 490px; */
   text-align: center;
   margin: 120px;
-  display: flex;
   
 }
 
