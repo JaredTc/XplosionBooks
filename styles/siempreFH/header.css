@@ -1,6 +1,6 @@
 :root{
     --letrasTitulo:1em;
-    --colorIni1:rgba(0, 0, 255, 0.404);
+    --colorIni1:rgb(3, 165, 43);
 }
 
 *{
@@ -11,20 +11,19 @@
 
 /* parte de la seccion del header */
 header{
-    border: 1px solid red;
     width: 100%;
     background-color: var(--colorIni1);
 }
 
  /* seccion de busqeuda */
 .primeraSeccion{
-    border: 1px solid red;
+ 
     display: flex;
     width: 100%;
 }
 
 .contentimagesLogo{
-    border: 1px solid red;
+    
     width: 20%;
     text-align: center;
 }
@@ -35,25 +34,57 @@ header{
 }
 
 .opcionesNav{
-    border: 1px solid green;
+    
     width: 100%;
     display: grid;
-    grid-template-columns: 30% 49%;
+    grid-template-columns: 40% 70%;
+    align-items: center;
+}
 
+.opcionesNav div form {
+  
+    display: flex;
+    justify-content: center;
 }
 
 .opcionesNav div form input{
-    width: 100%;
+    width: 80%;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 5px 0 5px 0;
 }
 
-.registroIngresar{
+/* .registroIngresar{
+  
+} */
 
-    border: 1px solid red;
+.registroIngresar ul {
+    display: flex;
+   justify-content: center;
+}
+
+.registroIngresar ul li{
+    background-color: #4CAF50;
+    border: 1px solid green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.registroIngresar ul li:hover{
+    background-color: #1b971f; 
+    border: 1px solid green;
 }
 
 /* nave de secciones */
 header nav{
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.144);
     width: 100%;
 }
 
@@ -65,11 +96,23 @@ header nav ul{
 
 
 /* quotar los botones de las listas */
-li{
+.nave ul li{
+    width: 100%;
+    text-align: center;
     list-style: none;
+    border: 1px solid rgba(63, 63, 63, 0.226);
+    cursor: pointer;
+    padding: 10px 0 10px 0;
+    
+}
+
+.nave ul li:hover{
+
+  background-color: cadetblue;
 }
 
 a{
+    color: white;
     text-decoration: none;
-    color: black;
+
 }
