@@ -20,7 +20,11 @@
 
 
 /* conteiner lo mas destacado---- */
-
-
-
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: magenta;
+    color: white;
+    font-family: sans-serif;
+}
 
