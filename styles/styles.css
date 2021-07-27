@@ -21,6 +21,64 @@
 
 /* conteiner lo mas destacado---- */
 
+.containerLoMasDestacado{
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+    margin-top:60px ;
+}
 
+h1{
+    text-align: center;
+    font-size: 30px;
+}
 
+.contenedorLibros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.contenedorLibros section{
+    border: 1px solid rgb(89, 115, 117);
+    width: 15%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contenedorLibros section img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+/*.contenedorLibros section img:hover{
+    width: 110%;
+    cursor: pointer;
+}*/
+
+.contenedorLibros section div div{
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.contenedorLibros section div div h3{
+    text-align: center;
+}
+
+.contenedorLibros section button{
+    padding: 5px;
+    width: 90%;
+    margin-left: 10px;
+    background-color: #f7dcc7; /* Green */
+    border: 1px solid black;
+    color: rgb(56, 33, 141);
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
