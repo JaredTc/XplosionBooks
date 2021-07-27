@@ -5,8 +5,8 @@
 
 
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -17,46 +17,46 @@
  text-transform: uppercase;
   color: white;
   font-size: 60px;
-    position: absolute;
-    top: 80px;
-    left: 70px;
-    font-family: 'Mukta', sans-serif;
+  position: absolute;
+  top: 80px;
+  left: 70px;
+  font-family: 'Mukta', sans-serif;
 }
 
 .boton{
   background-color: rgba(255, 255, 255, 0.212);
   font-size: large;
   position: absolute;
-    height: 30px;
-    width: 300px;
-    top: 250px;
-    left: 80px;
-    border-radius: 20px;
-    border-color: rgb(71, 71, 71);
-    font-family: 'Mukta', sans-serif;
+  height: 30px;
+  width: 300px;
+  top: 250px;
+  left: 80px;
+  border-radius: 20px;
+  border-color: rgb(71, 71, 71);
+  font-family: 'Mukta', sans-serif;
     
 }
 
 
 .Contaier{
-    margin: auto;
-    position: relative;
-    display: inline-block;
+  margin: auto;
+  position: relative;
+  display: inline-block;
     
   
 }
 
 ul.slider{
-    position: relative;
-    width: 800px;
-    height: 300px;
+  position: relative;
+  width: 800px;
+  height: 300px;
 }
 
 ul.slider{
-    position: relative;
-    width: 800px;
-    height: 300px;
-  }
+  position: relative;
+  width: 800px;
+  height: 300px;
+}
   
   ul.slider li {
     position: absolute;
