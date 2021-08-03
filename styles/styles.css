@@ -2,7 +2,11 @@
    /*  --letrasTitulo:1em;
     --colorIni1:rgba(0, 0, 255, 0.404); 
 }*/
-
+*{
+  margin: 0;
+  padding: 0;
+  
+}
 
 /* slider */
 
@@ -45,11 +49,7 @@ width: 10%;
 }
 
 
-*{
-  margin: 0;
-  padding: 0;
-  
-}
+
 .slider{
 width: 100%;
 height: 400px;
