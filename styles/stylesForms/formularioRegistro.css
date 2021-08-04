@@ -7,3 +7,9 @@
     margin: 0;
     padding: 0;
 }
+
+.contenedor {
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;

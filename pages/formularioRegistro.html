@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/siempreFH/header.css">
-   <link rel="stylesheet" href="../styles/stylesForms/formularioRegistro.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styles/stylesForms/formularioRegistro.css">
+    <title>Formulario Registro</title>
 </head>
+
 <body>
     <header>
         <div class="primeraSeccion">
             <div class="contentimagesLogo">
-                <a href="../index.html"> <img src="../images/logo.png"  width="150px" alt="LOGO"></a>
-               
+                <a href="../index.html"> <img src="../images/logo.png" width="150px" alt="LOGO"></a>
+
             </div>
             <div class="opcionesNav">
                 <div>
@@ -28,10 +30,10 @@
                     </ul>
                 </div>
             </div>
-            
+
         </div>
         <nav class="nave">
-            <ul >
+            <ul>
                 <li><a href="#">INICIO</a></li>
                 <li><a href="#">CATEGORIAS</a></li>
                 <li><a href="#">CONTACTANOS</a></li>
@@ -39,8 +41,54 @@
         </nav>
     </header>
     <main>
-    <!-- aca hacer el formulario -->
+        <!-- aca hacer el formulario -->
 
+        <div class="contenedor">
+        <h1>Formulario de Registro</h1>
+        <form method="POST">
+            <label for="nombre">Nombre (s):</label> <br>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre" required="true" /> <br>
+
+            <label for="apellido">Apellidos:</label> <br>
+            <input type="text" id="apellido" placeholder="Escribe tu apellido" required="true" /> <br>
+
+            <label for="email">Email:</label> <br>
+            <input type="email" id="email" placeholder="Escribe tu correo" required="true" /> <br>
+
+            <label for="password">Password:</label> <br>
+            <input type="password" id="password" required="true" /> <br>
+
+            <label for="celular">Celular:</label> <br>
+            <input type="number" id="celular" required="true" /> <br>
+
+            <label>Genero</label> <br>
+            <input type="radio" id="femenino" name="genero" value="femenino" />
+            <label for="femenino">Femenino</label> <br>
+
+            <input type="radio" id="masculino" name="genero" value="masculino" />
+            <label for="masculino">Maculino</label> <br> <br>
+
+            <label>Categorías de Libros Favoritos</label> <br>
+            <label for="Categorias"></label>
+            <input type="checkbox" id="novelas" name="categorías" value="novelas" />
+            <label for="novelas">Novelas</label> <br>
+
+            <input type="checkbox" id="terror" name="categorías" value="terror" />
+            <label for="terror">Terror</label> <br>
+
+            <input type="checkbox" id="drama" name="categorías" value="drama" />
+            <label for="drama">Drama</label> <br>
+
+            <input type="checkbox" id="históricas" name="categorías" value="históricas" />
+            <label for="históricas">Históricas</label> <br>
+
+            <input type="checkbox" id="ciencia ficción" name="categorías" value="ciencia ficción" />
+            <label for="ciencia ficción">Ciencia Ficción</label> <br> <br>
+
+            <input type="submit" value="Registrar"> <br>
+        </div>
+        </form>
     </main>
 </body>
+
 </html>
