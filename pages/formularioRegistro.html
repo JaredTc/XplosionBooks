@@ -6,14 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/siempreFH/header.css">
-
+    <link rel="stylesheet" href="../styles/siempreFH/footer.css">
     <link rel="stylesheet" href="../styles/stylesForms/formularioRegistro.css">
+    <script src="https://kit.fontawesome.com/7b875e4198.js" crossoring="anonymous"> </script>
     <title>Formulario Registro</title>
-
-   
-   <link rel="stylesheet" href="../styles/siempreFH/footer.css">
-
-    <title>Document</title>
 
 </head>
 
@@ -41,9 +37,9 @@
         </div>
         <nav class="nave">
             <ul>
-                <li><a href="#">INICIO</a></li>
-                <li><a href="#">CATEGORIAS</a></li>
-                <li><a href="#">CONTACTANOS</a></li>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="../pages/categorias.html">CATEGORIAS</a></li>
+                <li><a href="../pages/contactanos.html">CONTACTANOS</a></li>
             </ul>
         </nav>
     </header>
@@ -51,77 +47,74 @@
         <!-- aca hacer el formulario -->
 
         <div class="contenedor">
-        <h1>Formulario de Registro</h1>
-        <form method="POST">
-            <label for="nombre">Nombre (s):</label> <br>
-            <input type="text" id="nombre" placeholder="Escribe tu nombre" required="true" /> <br>
+            <h1>Formulario de Registro</h1>
+            <form method="POST">
+                <label for="nombre">Nombre (s):</label> <br>
+                <input type="text" id="nombre" placeholder="Escribe tu nombre" required="true" /> <br>
 
-            <label for="apellido">Apellidos:</label> <br>
-            <input type="text" id="apellido" placeholder="Escribe tu apellido" required="true" /> <br>
+                <label for="apellido">Apellidos:</label> <br>
+                <input type="text" id="apellido" placeholder="Escribe tu apellido" required="true" /> <br>
 
-            <label for="email">Email:</label> <br>
-            <input type="email" id="email" placeholder="Escribe tu correo" required="true" /> <br>
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email" placeholder="Escribe tu correo" required="true" /> <br>
 
-            <label for="password">Password:</label> <br>
-            <input type="password" id="password" required="true" /> <br>
+                <label for="password">Password:</label> <br>
+                <input type="password" id="password" required="true" /> <br>
 
-            <label for="celular">Celular:</label> <br>
-            <input type="number" id="celular" required="true" /> <br>
+                <label for="celular">Celular:</label> <br>
+                <input type="number" id="celular" required="true" /> <br>
 
 
-            <label>Genero</label> <br>
-            <input type="radio" id="femenino" name="genero" value="femenino" />
-            <label for="femenino">Femenino</label> <br>
+                <label>Genero</label> <br>
+                <input type="radio" id="femenino" name="genero" value="femenino" />
+                <label for="femenino">Femenino</label> <br>
 
-            <input type="radio" id="masculino" name="genero" value="masculino" />
-            <label for="masculino">Maculino</label> <br> <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" />
+                <label for="masculino">Maculino</label> <br> <br>
 
-            <label>Categorías de Libros Favoritos</label> <br>
-            <label for="Categorias"></label>
-            <input type="checkbox" id="novelas" name="categorías" value="novelas" />
-            <label for="novelas">Novelas</label> <br>
+                <label>Categorías de Libros Favoritos</label> <br>
+                <label for="Categorias"></label>
+                <input type="checkbox" id="novelas" name="categorías" value="novelas" />
+                <label for="novelas">Novelas</label> <br>
 
-            <input type="checkbox" id="terror" name="categorías" value="terror" />
-            <label for="terror">Terror</label> <br>
+                <input type="checkbox" id="terror" name="categorías" value="terror" />
+                <label for="terror">Terror</label> <br>
 
-            <input type="checkbox" id="drama" name="categorías" value="drama" />
-            <label for="drama">Drama</label> <br>
+                <input type="checkbox" id="drama" name="categorías" value="drama" />
+                <label for="drama">Drama</label> <br>
 
-            <input type="checkbox" id="históricas" name="categorías" value="históricas" />
-            <label for="históricas">Históricas</label> <br>
+                <input type="checkbox" id="históricas" name="categorías" value="históricas" />
+                <label for="históricas">Históricas</label> <br>
 
-            <input type="checkbox" id="ciencia ficción" name="categorías" value="ciencia ficción" />
-            <label for="ciencia ficción">Ciencia Ficción</label> <br> <br>
+                <input type="checkbox" id="ciencia ficción" name="categorías" value="ciencia ficción" />
+                <label for="ciencia ficción">Ciencia Ficción</label> <br> <br>
 
-            <input type="submit" value="Registrar"> <br>
+                <input type="submit" value="Registrar"> <br>
         </div>
         </form>
 
+    </main>
 
-
-<!-- aca va el pie de pagina  -->
+    <!-- aca va el pie de pagina  -->
     <footer>
-
         <div class="container">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook  facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram instagram"></i></a>
 
-            <div class="columna1">
-                <img src="./images/facebook.png" >
-                <img src="./images/Instagram.png" >
-            </div>
 
             <div class="columna2">
-                <h2>© 2021 XplosionBooks</h2> 
-                
+                <h2>© 2021 XplosionBooks</h2>
+
                 <div class="columna3">
-                    <img src="./images/contactenos.png" alt="">
-                    <h2>Contáctanos  <br> 3152739848 </h2>
+                    <a href=""><i class="fas fa-phone-alt phone"></i></a>
+                    <h2>Contáctanos <br> 3152739848 </h2>
                 </div>
             </div>
         </div>
     </footer>
 
 
-    </main>
+
 </body>
 
 </html>
