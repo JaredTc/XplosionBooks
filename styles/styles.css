@@ -17,6 +17,7 @@ main{
 
 .texto-encima{
 width: 10%;
+display: flex;
  text-transform: uppercase;
   color: rgb(0, 0, 0);
   font-size: 50px;
@@ -25,30 +26,6 @@ width: 10%;
   left: 70px;
   font-family: 'Mukta', sans-serif;
 }
-.frase1{
-  padding-left: 17%;
- text-align: end;
-  width: 6%;
-  color: rgb(0, 0, 0);
-  font-size: 10px;
-  position: absolute;
-  top: 299px;
-  left: 70px;
-  font-family: 'Mukta', sans-serif;
-}
-.autor{
-  padding-left: 13%;
- text-align: end;
-  width: 10%;
-  color: rgb(0, 0, 0);
-  font-size: 10px;
-  position: absolute;
-  top: 340px;
-  left: 70px;
-  font-family: 'Mukta', sans-serif;
-}
-
-
 
 .slider{
 width: 100%;
@@ -82,11 +59,11 @@ overflow: hidden;
   75%{margin-left: -300%;}
   100%{margin-left: -300%;}
 }
-/* @media only screen and (min-width:320px) and (max-width:768px){
+@media only screen and (min-width:320px) and (max-width:768px){
 .slider, .slider ul, .slider img{
   height: 100vh;
 }
-} */
+} 
 
 
 
