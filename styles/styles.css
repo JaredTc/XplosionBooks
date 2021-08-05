@@ -2,116 +2,155 @@
    /*  --letrasTitulo:1em;
     --colorIni1:rgba(0, 0, 255, 0.404); 
 }*/
-
-
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  
 }
-
 
 /* slider */
 
+main{
+  width: 100%;
+}
+
 
 .texto-encima{
+width: 10%;
  text-transform: uppercase;
-  color: white;
-  font-size: 60px;
-    position: absolute;
-    top: 80px;
-    left: 70px;
-    font-family: 'Mukta', sans-serif;
-}
-
-.boton{
-  background-color: rgba(255, 255, 255, 0.212);
-  font-size: large;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
   position: absolute;
-    height: 30px;
-    width: 300px;
-    top: 250px;
-    left: 80px;
-    border-radius: 20px;
-    border-color: rgb(71, 71, 71);
-    font-family: 'Mukta', sans-serif;
-    
+  top: 120px;
+  left: 70px;
+  font-family: 'Mukta', sans-serif;
+}
+.frase1{
+  padding-left: 17%;
+ text-align: end;
+  width: 6%;
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  position: absolute;
+  top: 299px;
+  left: 70px;
+  font-family: 'Mukta', sans-serif;
+}
+.autor{
+  padding-left: 13%;
+ text-align: end;
+  width: 10%;
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+  position: absolute;
+  top: 340px;
+  left: 70px;
+  font-family: 'Mukta', sans-serif;
 }
 
 
-.Contaier{
-    margin: auto;
-    position: relative;
-    display: inline-block;
-    
+
+.slider{
+width: 100%;
+height: 400px;
+overflow: hidden;
+}
+.slider ul{
+  position: relative;
+  display: flex;
+  animation: cambio 40s infinite alternate;
+  width: 400%;
+}
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+.slider img{
+  width: 100%;
+  height: 60%;
+}
+@keyframes cambio{
+  0%{margin-left: 0%;}
+  25%{margin-left: 0%;}
   
-}
-
-ul.slider{
-    position: relative;
-    width: 800px;
-    height: 300px;
-}
-
-ul.slider{
-    position: relative;
-    width: 800px;
-    height: 300px;
-  }
+  35%{margin-left: -100%;}
+  45%{margin-left: -100%;}
   
-  ul.slider li {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    opacity: 0;
-    width: inherit;
-    height: inherit;
-    transition: opacity .5s;
-    background:#fff;
-}
-/* Tamaño de las imagenes*/
-ul.slider li img{
-  width: auto;
-  width: 1365px;
-  height: 400px;
-  object-fit: cover;
-}
-
-ul.slider li:first-child {
-    opacity: 1; /*Mostramos el primer <li>*/
-}
-
-ul.slider li:target {
-    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
-}
-
-.menu{
-  /*position: absolute;*/
-  /* top: 375px;
-  left: 490px; */
-  text-align: center;
-  margin: 120px;
+  50%{margin-left: -200%;}
+  70%{margin-left: -200%;}
   
+  75%{margin-left: -300%;}
+  100%{margin-left: -300%;}
 }
+/* @media only screen and (min-width:320px) and (max-width:768px){
+.slider, .slider ul, .slider img{
+  height: 100vh;
+}
+} */
 
-.menu li{
-  display: inline-block;
-  text-align: center;
-}
 
-.menu li a{
-  display: inline-block;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.521);
-  padding: 10px;
-  width: 5px;
-  height: 5px;
-  font-size: 15px;
-  border-radius: 100%;
-}
 
 
 /* conteiner lo mas destacado---- */
 
+.containerLoMasDestacado{
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+    margin-top:60px ;
+}
 
+h1{
+    text-align: center;
+    font-size: 30px;
+}
 
+.contenedorLibros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.contenedorLibros section{
+    border: 1px solid rgb(89, 115, 117);
+    width: 15%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contenedorLibros section img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+/*.contenedorLibros section img:hover{
+    width: 110%;
+    cursor: pointer;
+}*/
+
+.contenedorLibros section div div{
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.contenedorLibros section div div h3{
+    text-align: center;
+}
+
+.contenedorLibros section button{
+    padding: 5px;
+    width: 90%;
+    margin-left: 10px;
+    background-color: #f7dcc7; /* Green */
+    border: 1px solid black;
+    color: rgb(56, 33, 141);
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
