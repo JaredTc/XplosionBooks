@@ -17,7 +17,6 @@ header{
 
  /* seccion de busqeuda */
 .primeraSeccion{
- 
     display: flex;
     width: 100%;
 }
@@ -35,10 +34,12 @@ header{
 
 .opcionesNav{
     
-    width: 100%;
+    width: 70%;
     display: grid;
     grid-template-columns: 40% 70%;
     align-items: center;
+   
+   
 }
 
 .opcionesNav div form {
@@ -54,14 +55,19 @@ header{
     border: 1px solid transparent;
     padding: 5px 0 5px 0;
 }
-
-/* .registroIngresar{
+ 
+.registroIngresar{
+   
+    width: 70%;
   
-} */
+}
 
 .registroIngresar ul {
+  
     display: flex;
-   justify-content: center;
+    justify-content: center;
+    
+   
 }
 
 .registroIngresar ul li{
@@ -69,6 +75,7 @@ header{
     border: 1px solid green;
     color: white;
     padding: 15px 32px;
+    width: 20%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -76,11 +83,18 @@ header{
     cursor: pointer;
     
 }
+/*
+
 
 .registroIngresar ul li:hover{
     background-color: #1b971f; 
     border: 1px solid green;
 }
+
+.registroIngresar ul{
+    width: 00%;
+}
+ */
 
 /* nave de secciones */
 header nav{
