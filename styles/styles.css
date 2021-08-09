@@ -71,13 +71,18 @@ overflow: hidden;
 
 
 
-/* conteiner lo mas destacado---- */
+/* container lo mas destacado---- */
 
 .containerLoMasDestacado{
-    border: 1px solid red;
     width: 80%;
     margin: 0 auto;
     margin-top:60px ;
+    background-color:cornsilk;
+    text-align: center;
+    flex: 0 1 calc(25% - 1rem);
+    margin-bottom: 1rem;
+    border: thin solid #000000;
+      
 }
 
 h1{
@@ -126,11 +131,17 @@ h1{
     background-color: #f7dcc7; /* Green */
     border: 1px solid black;
     color: rgb(56, 33, 141);
-    
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.contenedorLibros section button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
 }

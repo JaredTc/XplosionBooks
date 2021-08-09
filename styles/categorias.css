@@ -22,6 +22,8 @@ h1{
     font-size: 55PX;
     color: var(--colorIni1);
 }
+
+
    
 .contenedor{
     display: flex;
