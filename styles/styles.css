@@ -97,7 +97,7 @@ h1{
 }
 
 .contenedorLibros section{
-    border: 1px solid rgb(89, 115, 117);
+    border: 1px solid rgb(29, 209, 29);
     width: 15%;
     margin: 10px;
     border-radius: 10px;
@@ -106,42 +106,52 @@ h1{
 
 .contenedorLibros section img{
     border-radius: 10px;
+    height: 40vh;
     width: 100%;
 }
 
-/*.contenedorLibros section img:hover{
-    width: 110%;
-    cursor: pointer;
-}*/
+.contenedorLibros section .contentinfo{
+  border: 1px solid red;
+  border-radius: 9px;
+  padding-bottom: 5px;
+}
 
 .contenedorLibros section div div{
-  border: 1px solid black;
+  
   padding: 3px;
+  width: 100%;
+  height: 20vh;
   border-radius: 0px 0px 10px 10px;
+
+
+
 }
 
 .contenedorLibros section div div h3{
     text-align: center;
+    
 }
 
 .contenedorLibros section button{
     padding: 5px;
     width: 90%;
-    margin-left: 10px;
-    background-color: #f7dcc7; /* Green */
-    border: 1px solid black;
+  
+    background-color: #f7dcc7; 
+  
     color: rgb(56, 33, 141);
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
+ 
+   
     font-size: 20px;
-    margin: 4px 2px;
+ 
     cursor: pointer;
     border-radius: 4px;
     transition-duration: 0.4s;
 }
 
 .contenedorLibros section button:hover {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50; 
   color: white;
 }
+
+
