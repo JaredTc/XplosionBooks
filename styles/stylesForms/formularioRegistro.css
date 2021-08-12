@@ -11,6 +11,12 @@
 
 .container {
     margin: 50px auto;
+
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
     width: 300px;
     border-radius: 15px;
     background-image: url(/images/books.jpg);
@@ -28,6 +34,7 @@
     text-transform: uppercase;
     background-color: wheat;
 }
+
 
 
 
