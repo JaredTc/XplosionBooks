@@ -1,6 +1,6 @@
 :root{
     --letrasTitulo:1em;
-    --colorIni1:rgb(3, 165, 43);
+    --colorIni1:#006d77;
 }
 
 *{
@@ -12,8 +12,9 @@
 /* parte de la seccion del header */
 header{
     width: 100%;
-    background-color: var(--colorIni1);
+    background-color: #006d77;
 }
+
 
  /* seccion de busqeuda */
 .primeraSeccion{
@@ -22,12 +23,14 @@ header{
 }
 
 .contentimagesLogo{
-    
-    width: 20%;
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 95px;
     text-align: center;
 }
 
 .contentimagesLogo img{
+    display: inline-block;
     width: 100%;
     
 }
@@ -36,24 +39,57 @@ header{
     
     width: 70%;
     display: grid;
-    grid-template-columns: 40% 70%;
+    grid-template-columns: 50% 30%;
     align-items: center;
+    justify-content: center;
+   
    
    
 }
+/* .Opciones{
+    width: 70%;
+}
+
+.Opciones ul li{
+    color: rgb(255, 255, 255);
+    padding: 15px 22px;
+    width: 10%;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+.Opciones{
+    padding-top: 1%;
+    display: flex;
+} */
 
 .opcionesNav div form {
-  
+   
     display: flex;
     justify-content: center;
 }
 
+
+
+.opcionesNav div form Button{
+    background-color: #83c5be;
+    border-color: #006d7700;
+    border-radius: 4%;
+    width: 15%;
+
+}
 .opcionesNav div form input{
     width: 80%;
     border-radius: 4px;
     outline: none;
     border: 1px solid transparent;
     padding: 5px 0 5px 0;
+    display: inline-block;
 }
  
 .registroIngresar{
@@ -63,24 +99,30 @@ header{
 }
 
 .registroIngresar ul {
-  
+  padding-top: 1%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     
    
 }
 
-.registroIngresar ul li{
-    background-color: #4CAF50;
-    border: 1px solid green;
-    color: white;
-    padding: 15px 32px;
-    width: 20%;
+.registroIngresar li a {
+    color: rgb(255, 255, 255);
+   
+}
+
+.registroIngresar ul li {
+    background-color:#03beac00;
+    border: 1px solid #53837e00;
+    color: rgb(255, 255, 255);
+    padding: 15px 2px;
+    width: 10%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
     
 }
 /*
@@ -114,7 +156,7 @@ header nav ul{
     width: 100%;
     text-align: center;
     list-style: none;
-    border: 1px solid rgba(63, 63, 63, 0.226);
+    border: 1px solid rgba(207, 207, 207, 0.226);
     cursor: pointer;
     padding: 10px 0 10px 0;
     
@@ -126,7 +168,8 @@ header nav ul{
 }
 
 a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-
+    font-family: 'Source Serif Pro', serif;
+    text-shadow: #83c5be;
 }

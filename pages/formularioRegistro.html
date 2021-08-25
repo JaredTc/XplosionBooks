@@ -23,174 +23,121 @@
     <header>
         <div class="primeraSeccion">
             <div class="contentimagesLogo">
-                <a href="../index.html"> <img src="../images/logo.png" width="150px" alt="LOGO"></a>
+                <img src="../images/Book.png" alt="LOGO">
             </div>
             <div class="opcionesNav">
                 <div>
                     <form action="">
-                        <input type="text" placeholder="BUSCAR">
+                        <input type="text" placeholder=" Autor, Titulo, Editorial...">
+                        <Button><span><i class="fas fa-search"></i></span></Button>
+
                     </form>
                 </div>
-                <div class="registroIngresar">
-                    <ul>
-                        <li><a href="#">REGISTRO</a></li>
-                        <li><a href="#">INGRESAR</a></li>
-                    </ul>
-                </div>
-            </div>
 
+            </div>
+            <div class="registroIngresar">
+                <ul>
+                    <li><a href="../pages/formularioRegistro.html"><span><i class="fas fa-user-edit"></i></span></a>
+                    </li>
+                    <li><a href="#"> <span><i class="fas fa-sign-in-alt"></i></span></a></li>
+                </ul>
+            </div>
         </div>
         <nav class="nave">
             <ul>
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="../pages/categorias.html">CATEGORIAS</a></li>
-                <li><a href="../pages/contactanos.html">CONTACTANOS</a></li>
+                <li><a href="../index.html"><span><i class="fas fa-home"></i></span> INICIO</a></li>
+                <li><a href="../pages/categorias.html"> <span><i class="fas fa-list"></i></span> CATEGORIAS</a></li>
+                <li><a href="../pages/contactanos.html"> <span><i class="fas fa-phone-alt"></i></span> CONTACTANOS</a>
+                </li>
             </ul>
         </nav>
+
+        </div>
+
     </header>
     <main>
-        <!-- aca hacer el formulario -->
+
 
 
         <div class="container">
-            <h1>Formulario de Registro</h1>
-            <form method="POST">
-                <div class="elemento">
+
+            <div class="contenedor">
+                <h1>Formulario de Registro</h1>
+                <form method="POST">
                     <label for="nombre">Nombre (s):</label> <br>
                     <input type="text" id="nombre" placeholder="Escribe tu nombre" required="true" /> <br>
-                </div>
-                <div class="elemento">
+
+
                     <label for="apellido">Apellidos:</label> <br>
                     <input type="text" id="apellido" placeholder="Escribe tu apellido" required="true" /> <br>
-                </div>
 
-                <div class="elemento">
-                    <label for="celular">Celular:</label> <br>
-                    <input type="number" id="celular" required="true" /> <br>
-                </div>
-
-                <div class="elemento">
                     <label for="email">Email:</label> <br>
                     <input type="email" id="email" placeholder="Escribe tu correo" required="true" /> <br>
-                </div>
 
-                <div class="elemento">
                     <label for="password">Password:</label> <br>
                     <input type="password" id="password" required="true" /> <br>
-                </div>
 
-        <div class="contenedor">
-            <h1>Formulario de Registro</h1>
-            <form method="POST">
-                <label for="nombre">Nombre (s):</label> <br>
-                <input type="text" id="nombre" placeholder="Escribe tu nombre" required="true" /> <br>
+                    <label for="celular">Celular:</label> <br>
+                    <input type="number" id="celular" required="true" /> <br>
 
+                    <div class="elemento">
+                        <label>Genero</label> <br>
+                        <input type="radio" id="femenino" name="genero" value="femenino" />
+                        <label for="femenino">Femenino</label> <br>
+                    </div>
 
-                <label for="apellido">Apellidos:</label> <br>
-                <input type="text" id="apellido" placeholder="Escribe tu apellido" required="true" /> <br>
+                    <div class="elemento">
+                        <input type="radio" id="masculino" name="genero" value="masculino" />
+                        <label for="masculino">Maculino</label> <br> <br>
+                    </div>
 
-                <label for="email">Email:</label> <br>
-                <input type="email" id="email" placeholder="Escribe tu correo" required="true" /> <br>
+                    <label>Categorías de Libros Favoritos</label> <br>
+                    <label for="Categorias"></label>
+                    <input type="checkbox" id="novelas" name="categorías" value="novelas" />
+                    <label for="novelas">Novelas</label> <br>
 
-                <label for="password">Password:</label> <br>
-                <input type="password" id="password" required="true" /> <br>
+                    <input type="checkbox" id="terror" name="categorías" value="terror" />
+                    <label for="terror">Terror</label> <br>
 
-                <label for="celular">Celular:</label> <br>
-                <input type="number" id="celular" required="true" /> <br>
+                    <input type="checkbox" id="drama" name="categorías" value="drama" />
+                    <label for="drama">Drama</label> <br>
 
-                <div class="elemento">
-                    <label>Genero</label> <br>
-                    <input type="radio" id="femenino" name="genero" value="femenino" />
-                    <label for="femenino">Femenino</label> <br>
-                </div>
+                    <input type="checkbox" id="históricas" name="categorías" value="históricas" />
+                    <label for="históricas">Históricas</label> <br>
 
-                <div class="elemento">
-                    <input type="radio" id="masculino" name="genero" value="masculino" />
-                    <label for="masculino">Maculino</label> <br> <br>
-                </div>
+                    <input type="checkbox" id="ciencia ficción" name="categorías" value="ciencia ficción" />
+                    <label for="ciencia ficción">Ciencia Ficción</label> <br> <br>
 
-                <label>Categorías de Libros Favoritos</label> <br>
-                <label for="Categorias"></label>
-                <input type="checkbox" id="novelas" name="categorías" value="novelas" />
-                <label for="novelas">Novelas</label> <br>
-
-                <input type="checkbox" id="terror" name="categorías" value="terror" />
-                <label for="terror">Terror</label> <br>
-
-                <input type="checkbox" id="drama" name="categorías" value="drama" />
-                <label for="drama">Drama</label> <br>
-
-                <input type="checkbox" id="históricas" name="categorías" value="históricas" />
-                <label for="históricas">Históricas</label> <br>
-
-                <input type="checkbox" id="ciencia ficción" name="categorías" value="ciencia ficción" />
-                <label for="ciencia ficción">Ciencia Ficción</label> <br> <br>
-
-                <div class="elemento">
-                    <input type="submit" value="Registrar"> <br>
-                </div>
-
-
-
-                <label>Genero</label> <br>
-                <input type="radio" id="femenino" name="genero" value="femenino" />
-                <label for="femenino">Femenino</label> <br>
-
-                <input type="radio" id="masculino" name="genero" value="masculino" />
-                <label for="masculino">Maculino</label> <br> <br>
-
-                <label>Categorías de Libros Favoritos</label> <br>
-                <label for="Categorias"></label>
-                <input type="checkbox" id="novelas" name="categorías" value="novelas" />
-                <label for="novelas">Novelas</label> <br>
-
-                <input type="checkbox" id="terror" name="categorías" value="terror" />
-                <label for="terror">Terror</label> <br>
-
-                <input type="checkbox" id="drama" name="categorías" value="drama" />
-                <label for="drama">Drama</label> <br>
-
-                <input type="checkbox" id="históricas" name="categorías" value="históricas" />
-                <label for="históricas">Históricas</label> <br>
-
-                <input type="checkbox" id="ciencia ficción" name="categorías" value="ciencia ficción" />
-                <label for="ciencia ficción">Ciencia Ficción</label> <br> <br>
-
-                <input type="submit" value="Registrar"> <br>
+                    <div class="elemento">
+                        <input type="submit" value="Registrar">
+                    </div>
+                </form>
+            </div>
         </div>
-        </form>
-
     </main>
 
 
-
-        <!-- aca va el pie de pagina  -->
-        <footer>
-
-            <div class="container">
-
-                <div class="columna1">
-                    <img src="./images/facebook.png">
-                    <img src="./images/Instagram.png">
-                </div>
-
-                <div class="columna2">
-                    <h2>© 2021 XplosionBooks</h2>
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook  facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram instagram"></i></a>
 
 
+            <div class="columna2">
+                <h2>© 2021 XplosionBooks</h2>
 
-                <div class="columna2">
-                    <h2>© 2021 XplosionBooks</h2>
 
-                    <div class="columna3">
-                        <img src="./images/contactenos.png" alt="">
-                        <h2>Contáctanos <br> 3152739848 </h2>
-                    </div>
-
+                <div class="columna3">
+                    <a href=""><i class="fas fa-phone-alt phone"></i></a>
+                    <h2>Contáctanos <br> 3152739848 </h2>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
+
+
+    <!-- aca va el pie de pagina  -->
 
 
 </body>

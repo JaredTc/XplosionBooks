@@ -1,3 +1,7 @@
+:root{
+  
+    --colorIni1:#006d77;
+}
 body{
     font-family: 'Mukta', sans-serif;
     box-sizing: border-box;
@@ -11,7 +15,7 @@ body{
 h1{
     padding-top: 20px;
     font-size: 4vw;
-    color: rgb(3, 165, 43);
+    color: var(--colorIni1);
 }
 
 .cuerpo{
