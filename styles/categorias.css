@@ -1,6 +1,6 @@
 :root{
-    
-    --colorIni1:rgb(3, 165, 43);
+  
+    --colorIni1:#006d77;
 }
 
 body{
@@ -36,7 +36,7 @@ h1{
 }
 .contenedor figure{
    position:relative;
-    height: 290px;
+    height: 420px;
     cursor: pointer;
     width: 350px;
     overflow: hidden;
