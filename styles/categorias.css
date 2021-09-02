@@ -1,6 +1,10 @@
 :root{
   
     --colorIni1:#006d77;
+    --colorSec2: #83c5be;
+    --colorTerc3: #edf6f9;
+    --colorfour4: #ffddd2;
+    --colorfive5: #e29578;
 }
 
 body{
@@ -17,11 +21,6 @@ main{
     justify-content: center;
 }
 
-h1{
-    padding-top: 15px;
-    font-size: 55PX;
-    color: var(--colorIni1);
-}
 
 
    
@@ -40,7 +39,7 @@ h1{
     cursor: pointer;
     width: 350px;
     overflow: hidden;
-    border-radius: 6px;
+    border-radius: 10px;
     box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 }
 .contenedor figure img{
@@ -85,4 +84,175 @@ h1{
     width: 100%;
     max-width: 220px;
     margin: auto;
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imag{
+    width: 50%;
+    padding-top: 1%;
+    
+}
+.content img{
+    width: 90%;
+    padding-left: 10%;
+    display: inline-block;
+}
+
+.info{
+    padding-left: 5%;
+
+    width: 50%;
+    text-align: justify;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.info h1{
+    padding-top: 10%;
+    color: var(--colorIni1);
+    font-size: 400%;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.info p{
+    padding-top: 10%;
+    font-size: 30px;
+
+}
+
+
+.destacado{
+    /* border: 4px green solid; */
+    height: 400px;
+    width: 95%;
+    padding-left: 5%;
+    padding-top: 2%;
+    display: flex;
+    padding-right: 0%;
+    
+}
+
+.libro{
+    /* border: #006d77 4px solid; */
+   background-color: var(--colorTerc3);
+    width: 70%;
+    height: 350px;
+    border-radius: 4%;
+    display: flex;
+}
+
+.text{
+    width: 60%;
+    padding-top: 2%;
+    padding-left: 0%;
+    text-align: start;
+    padding-right: 15%;
+    display: block;
+}
+
+.text p{
+    padding-top: 5%;
+}
+
+.libroimg{
+   
+   width: 30%;
+   height: 350px;
+   
+}
+
+.libroimg img{
+    position: absolute;
+    border-radius: 4%;
+    height: 350px;
+}
+
+.text a{
+    color: white;
+}
+
+
+.Recomendacion{
+    width: 80%;
+    height: 350px;
+    /* border: #006d77 4px solid; */
+    border-radius: 4%;
+    display: flex;
+}
+
+.libro2{
+    /* background-color: var(--colorTerc3); */
+    display: flex;
+    position: relative;
+    width: 30%;
+    height: 350px;
+    border-radius: 4%;
+   
+    
+}
+
+.Recomendacion img{
+    border-radius: 4%;
+    height: 350px;
+}
+
+.imge{
+   position: relative;
+   width: 35%;
+   height: 350px;
+   
+
+}
+.book3{
+    position: static;
+}
+
+.titulos{
+    width: 100%;
+}
+
+
+
+.Subtitle{
+    width: 50%;
+    padding-left: 5%;
+    font-size: 24px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+
+
+.btn{
+    background-color: white;
+    border: #006d77 1px solid;
+    width: 30%;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+}
+
+.btn h3{
+    color: #006d77;
+    font-size: 19px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.text div:hover {
+    background-color: var(--colorSec2);
+}
+
+.star{
+    color: gold;
+    padding-top: 2%;
+   
+}
+.stars{
+    color: gray;
 }
