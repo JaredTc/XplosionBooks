@@ -12,6 +12,11 @@
   
 }
 
+
+body{
+    background-color: #EDF6F9;
+}
+
 /* slider */
 
 main{
@@ -157,7 +162,7 @@ overflow: hidden;
     width: 80%;
     margin: 0 auto;
     margin-top:60px ;
-    background-color:#E29578;
+    background-color:#FFDDD2;
     text-align: center;
     flex: 0 1 calc(25% - 1rem);
     margin-bottom: 1rem;
@@ -178,7 +183,7 @@ h1{
 
 .contenedorLibros section{
     border: 1px solid rgb(29, 209, 29);
-    border: 1px solid #ffddd2;
+    border: 1px solid #E29578;
     width: 15%;
     margin: 10px;
     border-radius: 10px;
@@ -192,7 +197,7 @@ h1{
 }
 
 .contenedorLibros section .contentinfo{
-  border: 1px solid #83c5be;
+  border: 1px solid #FFDDD2;
   border-radius: 9px;
   padding-bottom: 5px;
 }
