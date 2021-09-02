@@ -121,15 +121,14 @@ overflow: hidden;
   flex-direction: column;
 }
 .porcentaje{
-  text-align: center;
-  padding-top: 20%;
+  padding-top: 15%;
 
 }
 
 .lets{
   padding-top: 20%;
   display: flex;
-  justify-content: center;
+ 
 }
 
 .desc h3{
@@ -152,6 +151,7 @@ overflow: hidden;
  width: 110%;
 }
 .descount{
+  display: flex;
   padding-right: 10%;
   
 }
