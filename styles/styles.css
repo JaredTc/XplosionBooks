@@ -109,6 +109,7 @@ overflow: hidden;
 }
 
 .desc{
+  
   display: flex;
   flex-direction: column;
   padding-top: 5%;
@@ -116,24 +117,23 @@ overflow: hidden;
   
 }
 .testo{
-  width: 70%;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
 .porcentaje{
-  padding-top: 15%;
 
+  padding-top: 15%;
 }
 
 .lets{
-  padding-top: 20%;
+  padding-top: 30%;
   display: flex;
- 
+  
 }
 
 .desc h3{
   font-size: 25px;
-
 }
 .desc h2{
   color: white;
@@ -148,12 +148,12 @@ overflow: hidden;
 }
 .descount img{
   position: relative;
- width: 110%;
+ width: 120%;
 }
 .descount{
   display: flex;
-  padding-right: 10%;
-  
+  padding-right: 15%;
+ align-items: center;
 }
 
 /* container lo mas destacado---- */
