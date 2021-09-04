@@ -5,6 +5,7 @@
 body{
     font-family: 'Mukta', sans-serif;
     box-sizing: border-box;
+    background-color: #edf6f9;
 }
 
 .flex-center{
@@ -24,7 +25,7 @@ h1{
     justify-content: center;
     width: 90%;
     margin: 5%;
-    grid-gap: 30px;
+    grid-gap: 80px;
 }
 
 .cuerpo figure{
@@ -102,7 +103,7 @@ margin-top: 30px;
 }
 
 .card{
-border: 1px solid red;
+border: 2px solid black;
 width: 100%;
 padding: 10px;
 display: flex;
@@ -128,7 +129,7 @@ justify-content: center;
 
 
 .card-body  div{
- border: 1px solid red;
+ background-color: white;
  width: 100%;
  display: flex;
  justify-content: space-between;

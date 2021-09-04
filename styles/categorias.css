@@ -10,6 +10,7 @@
 body{
     font-family: 'Mukta', sans-serif;
     box-sizing: border-box;
+    background-color: #edf6f9;
 }
 main{
     width: 100%;
