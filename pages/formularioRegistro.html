@@ -5,139 +5,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/siempreFH/header.css">
-    <link rel="stylesheet" href="../styles/siempreFH/footer.css">
-    <link rel="stylesheet" href="../styles/stylesForms/formularioRegistro.css">
+    <!-- <link rel="stylesheet" href="../styles/siempreFH/footer.css"> -->
+    <link rel="stylesheet" href="../styles/initsesion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7b875e4198.js" crossoring="anonymous"> </script>
-    <title>Formulario Registro</title>
-
-
-
-    <link rel="stylesheet" href="../styles/siempreFH/footer.css">
-
-    <title>Formulario</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/footers/">
+    <title>Ingresar -XplosionBooks</title>
 </head>
 
 <body>
-    <header>
-        <div class="primeraSeccion">
-            <div class="contentimagesLogo">
-                <img src="../images/Book.png" alt="LOGO">
-            </div>
-            <div class="opcionesNav">
-                <div>
-                    <form action="">
-                        <input type="text" placeholder=" Autor, Titulo, Editorial...">
-                        <Button><span><i class="fas fa-search"></i></span></Button>
 
-                    </form>
-                </div>
-
-            </div>
-            <div class="registroIngresar">
-                <ul>
-                    <li><a href="../pages/formularioRegistro.html"><span><i class="fas fa-user-edit"></i></span></a>
-                    </li>
-                    <li><a href="#"> <span><i class="fas fa-sign-in-alt"></i></span></a></li>
-                </ul>
-            </div>
-        </div>
-        <nav class="nave">
-            <ul>
-                <li><a href="../index.html"><span><i class="fas fa-home"></i></span> INICIO</a></li>
-                <li><a href="../pages/categorias.html"> <span><i class="fas fa-list"></i></span> CATEGORIAS</a></li>
-                <li><a href="../pages/contactanos.html"> <span><i class="fas fa-phone-alt"></i></span> CONTACTANOS</a>
-                </li>
-            </ul>
-        </nav>
-
-        </div>
-
-    </header>
-    <main>
-
-
-
-        <div class="container">
-
-            <div class="contenedor">
-                <h1>Formulario de Registro</h1>
-                <form method="POST">
-                    <label for="nombre">Nombre (s):</label> <br>
-                    <input type="text" id="nombre" placeholder="Escribe tu nombre" required="true" /> <br>
-
-
-                    <label for="apellido">Apellidos:</label> <br>
-                    <input type="text" id="apellido" placeholder="Escribe tu apellido" required="true" /> <br>
-
-                    <label for="email">Email:</label> <br>
-                    <input type="email" id="email" placeholder="Escribe tu correo" required="true" /> <br>
-
-                    <label for="password">Password:</label> <br>
-                    <input type="password" id="password" required="true" /> <br>
-
-                    <label for="celular">Celular:</label> <br>
-                    <input type="number" id="celular" required="true" /> <br>
-
-                    <div class="elemento">
-                        <label>Genero</label> <br>
-                        <input type="radio" id="femenino" name="genero" value="femenino" />
-                        <label for="femenino">Femenino</label> <br>
+    <nav class="navbar navbar-expand-lg navbar-dark nave">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">
+                    <div class="imagen">
+                        <img src="../images/Book.png" alt="">
                     </div>
+                </a> -->
+            <a class="navbar-brand" href="#">XplosionBooks
+            </a>
 
-                    <div class="elemento">
-                        <input type="radio" id="masculino" name="genero" value="masculino" />
-                        <label for="masculino">Maculino</label> <br> <br>
-                    </div>
-
-                    <label>Categorías de Libros Favoritos</label> <br>
-                    <label for="Categorias"></label>
-                    <input type="checkbox" id="novelas" name="categorías" value="novelas" />
-                    <label for="novelas">Novelas</label> <br>
-
-                    <input type="checkbox" id="terror" name="categorías" value="terror" />
-                    <label for="terror">Terror</label> <br>
-
-                    <input type="checkbox" id="drama" name="categorías" value="drama" />
-                    <label for="drama">Drama</label> <br>
-
-                    <input type="checkbox" id="históricas" name="categorías" value="históricas" />
-                    <label for="históricas">Históricas</label> <br>
-
-                    <input type="checkbox" id="ciencia ficción" name="categorías" value="ciencia ficción" />
-                    <label for="ciencia ficción">Ciencia Ficción</label> <br> <br>
-
-                    <div class="elemento">
-                        <input type="submit" value="Registrar">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </main>
-
-
-    <footer>
-        <div class="container">
-            <a href="https://www.facebook.com/"><i class="fab fa-facebook  facebook"></i></a>
-            <a href="https://www.instagram.com/"><i class="fab fa-instagram instagram"></i></a>
-
-
-            <div class="columna2">
-                <h2>© 2021 XplosionBooks</h2>
-
-
-                <div class="columna3">
-                    <a href=""><i class="fas fa-phone-alt phone"></i></a>
-                    <h2>Contáctanos <br> 3152739848 </h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active" href="categorias.html">Categorias</a>
+                    <a class="nav-link active" href="contactanos.html">Contactanos</a>
+                    <a class="nav-link active" href="formularioRegistro.html">Registrate</a>
+                    <a class="nav-link active" href="Inicio_sesion.html">Iniciar Sesion</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </div>
             </div>
         </div>
+    </nav>
+
+
+
+    <div class="container d-flex justify-content-center">
+        <div class="contenedor">
+            <div class="card mb-3 p-4">
+                <div class="row g-0">
+                    <div class="col-md-6 im">
+                        <img src="../images/sentado.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card-body">
+                            <h1 class="card-title">Formulario de Registro</h1>
+                            <br>
+                            <form>
+                                <div class="mb-2">
+                                    <label for="nombre" class="form-label">Nombre (s):</label>
+                                    <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+                                </div>
+
+                                <div class="mb-2">
+                                    <label for="apellido" class="form-label">Apellido:</label>
+                                    <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+                                </div>
+
+                                <div class="mb-2">
+                                    <label for="celular" class="form-label">Celular:</label>
+                                    <input type="number" class="form-control" id="nombre" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-2">
+                                    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-2">
+                                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primar">Ingresar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                <!-- Github -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-dark" href="#">XplosionBooks</a>
+        </div>
+        <!-- Copyright -->
     </footer>
 
 
 
-    <!-- aca va el pie de pagina  -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"></script>
 
 
 </body>
