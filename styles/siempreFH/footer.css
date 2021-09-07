@@ -11,28 +11,32 @@
 
 
 footer{
-    width: 100%;
+    /* width: 100%;
     padding: 2px 0px 0px 0px;
     background-color: var(--colorIni1);
     color: white;
     font-family: 'Open Sans', sans-serif;
-   
+    */
+
+    color: white;
+    width: 100%;
+    background-color: var(--colorIni1);
     }
     
     .facebook{
-    font-size: 50px;
-    margin-left: 1%;
+    font-size: 30px;
+    /* margin-left: 1%;
     margin-top: 1%;
-    width: 5%;
+    width: 5%; */
     }
         
     .instagram{
-    font-size: 50px;
-    height: 30px;
-    padding-left: 5%;
+    font-size: 30px;
+    /* height: 30px;
+    padding-left: 5%; */
     }
     
-    .columna2{
+    /* .columna2{
     height: 30px;
     padding-bottom: 2%;
     padding-left: 40%;
@@ -44,11 +48,53 @@ footer{
     display: flex;
     height: 60px;
     margin-left: 40%;
-    }
-     
+    } */
+
     .phone{
-    font-size: 50px;
-    float: left;
+    font-size: 30px;
+    
+    /* float: left;
     height: 100%;
-    width: 30%;
+    width: 30%; */
     }
+
+.cpoyrigt{
+    justify-content: center;
+    display: flex;
+}
+.contacto{
+    display: flex;
+}
+.icon{
+    display: flex;
+   
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.ic{
+    display: flex;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.credit{
+    display: flex;
+    padding-top: 8%;
+}
+
+.fab{
+     display: flex;
+    padding-top: 10%;
+    padding-right: 10%;
+}
+
+.inst{
+     display: flex;
+    padding-top: 10%;
+}
