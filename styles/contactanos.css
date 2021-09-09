@@ -135,56 +135,14 @@ justify-content: center;
  justify-content: space-between;
     padding-bottom: 5px;
 }
-/*FORMULARIO DE CONTACTO*/
+html,body{
+    width: 100%;
+    min-height: 100vh;
+}
+.custom-card{
+    max-width: 500px;
+}
 
-/* :root{
-    --primary: #fbc02d;
-    --secondary: #d3b8ae;
-    }
-    
-    .bg-brown{
-        background-color: #6d4c41  !important;
-    }
-    
-    .home-image{
-        background-image: url(./assets/Mascotas/home.jpg);
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-    
-    }
-    
-    .main-btn{
-        background-color: var(--primary);
-        color: black;
-        border:var(--primary)2px solid ;
-    }
-    
-    .secondary-btn{
-        color: black;
-        background-color: var(--secondary);
-        border: 2px var(--secondary) solid;
-    }
-    
-    .main-title{
-        font-family:'Shadows Into Light', cursiva;
-        font-size: 3rem;
-        margin-top: 2 rem;
-    }
-    
-    .main-footer{
-        background-color: rgba(0, 0, 0, 0.408);
-        color: white;
-    }
-    
-    .img-card{
-        width: 100%;
-        height: 18rem;
-    }
-    
-    .img-card img{
-        width: 100%;
-        height: 100%;
-    } */
+.card-icon{
+    font-size: 100px;
+}
