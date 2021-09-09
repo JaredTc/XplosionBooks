@@ -34,7 +34,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                     <a class="nav-link active" href="categorias.html">Categorias</a>
                     <a class="nav-link active" href="contactanos.html">Contactanos</a>
                     <a class="nav-link active" href="formularioRegistro.html">Registrate</a>
@@ -47,9 +47,9 @@
 
 
 
-    <div class="container d-flex justify-content-center">
+    <div class="container d-flex justify-content-center" id="tarjeta-inicio">
         <div class="contenedor">
-            <div class="card mb-3 p-4">
+            <div class="card mb-3 p-4 border-light ">
                 <div class="row g-0">
                     <div class="col-md-6 im">
                         <img src="../images/img-login/loin.png" class="img-fluid rounded-start" alt="...">
@@ -59,30 +59,59 @@
                             <h1 class="card-title">Iniciar Sesion</h1>
                             <p>Rellene los campos correctamente</p>
                             <br>
-                            <form>
+                            <form onsubmit="iniciarSesion(event)">
                                 <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp">
+                                    <label for="InputEmail1" class="form-label">Correo Electronico</label>
+                                    <input type="email" class="form-control" id="InputEmail1"
+                                        aria-describedby="emailHelp" required />
                                     <div id="emailHelp" class="form-text">@example.com
                                     </div>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <label for="InputPassword1" class="form-label">Contraseña</label>
+                                    <input type="password" id="InputPassword1" class="form-control"  required />
                                 </div>
                                 <div class="mb-3 form-check">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                     <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
                                 </div>
-                                <button type="submit" class="btn btn-primar">Ingresar</button>
+                                <button type="submit"
+                                    class="btn btn-primar">Ingresar</button>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
     </div>
+    <div class="container d-flex justify-content-center d-none" id="tarjeta-bienvenida">
+        <div class="contenedor">
+            <div class="card mb-3 p-4 border-light">
+                <div class="row g-0">
+                    <div class="col-md-6 photo d-flex justify-content-center">
+                        <img src="../images/img-login/undraw_Coding_re_iv62.png" class="img-fluid rounded-start"
+                            alt="...">
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card-body">
+                            <h2>¡Bienvenido a XplosionBooks!</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores saepe, nulla rerum ex
+                                molestiae quis praesentium mollitia ipsum, voluptates earum blanditiis accusantium sed
+                                enim quo magnam, fuga voluptatem! Accusantium, possimus.</p>
+                            <button onclick="CerrarSesion(event)" type="button" class="btn btn-prim">Cerrar
+                                Sesión</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
 
 
 
@@ -129,7 +158,7 @@
 
 
 
-
+    <script src="../js/inicio_sesion.js"></script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
