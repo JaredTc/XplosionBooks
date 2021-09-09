@@ -27,28 +27,30 @@
                     <form action="">
                         <input type="text" placeholder=" Autor, Titulo, Editorial...">
                         <Button><span><i class="fas fa-search"></i></span></Button>
-    
+
                     </form>
                 </div>
-                
+
             </div>
             <div class="registroIngresar">
                 <ul>
-                    <li><a href="../pages/formularioRegistro.html"><span><i class="fas fa-user-edit"></i></span></a></li>
+                    <li><a href="../pages/formularioRegistro.html"><span><i class="fas fa-user-edit"></i></span></a>
+                    </li>
                     <li><a href="#"> <span><i class="fas fa-sign-in-alt"></i></span></a></li>
                 </ul>
             </div>
-            </div>
-                 <nav class="nave">
+        </div>
+        <nav class="nave">
             <ul>
                 <li><a href="../index.html"><span><i class="fas fa-home"></i></span> INICIO</a></li>
                 <li><a href="../pages/categorias.html"> <span><i class="fas fa-list"></i></span> CATEGORIAS</a></li>
-                <li><a href="../pages/contactanos.html"> <span><i class="fas fa-phone-alt"></i></span> CONTACTANOS</a></li>
+                <li><a href="../pages/contactanos.html"> <span><i class="fas fa-phone-alt"></i></span> CONTACTANOS</a>
+                </li>
             </ul>
         </nav>
 
         </div>
-   
+
     </header>
 
 
@@ -99,80 +101,49 @@
             </div>
         </figure>
 
-    </div>
+    </div> 
+        <!--FORMULARIO DE CONTACTO-->
+        <div class="containerf ">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h2>Formulario de contacto</h2>
+                    <form action="">
 
-    <div class="containerf ">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h2>Formulario de contacto</h2>
-                <form action="">
+                        <div>
+                            <label for="name" class="form-label">Nombres:</label>
+                            <input type="name" id="name" class="form-control">
+                        </div>
 
-                    <div>
-                        <label for="name" class="form-label">Nombres:</label>
-                        <input type="name" id="name" class="form-control">
-                    </div>
+                        <div class="mb-2">
+                            <label for="apellidos" class="form-label"> Apellidos: </label>
+                            <input type="text" id="apellidos" class="form-control">
+                        </div>
 
-                    <div class="mb-2">
-                        <label for="apellidos" class="form-label"> Apellidos: </label>
-                        <input type="text" id="apellidos" class="form-control">
-                    </div>
+                        <div>
+                            <label class="form-label" for="telefono"> Correo:</label>
+                            <input type="email" class="form-control" />
+                        </div>
 
-                    <div>
-                        <label class="form-label" for="telefono"> Correo:</label>
-                        <input type="email"  class="form-control" />
-                    </div>
+                        <div>
+                            <label class="form-label" for="telefono">Celular:</label>
+                            <input type="number" class="form-control" />
+                        </div>
 
-                    <div>
-                        <label class="form-label" for="telefono">Celular:</label>
-                        <input type="number"  class="form-control" />
-                    </div>
+                        <div>
+                            <label for="">Deja tus comentarios</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
 
-                    <div>
-                        <label for="">Deja tus comentarios</label>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </div>
+                        <div class="text-center ">
+                            <button class="btn main-btn">Enviar</button>
+                        </div>
 
-                    <div class="text-center ">
-                        <button class="btn main-btn">Enviar</button>
-                    </div>
+                    </form>
 
-                </form>
-
+                </div>
             </div>
         </div>
-    </div>
-        <!--FORMULARIO DE CONTACTO
-        <div class="formulario-Contacto">
-            <B>Formulario de contacto</B> <br><br>
-            <b>Nombre (s): </b> <br>
-            <Input type="text" name="Nombre" size="30" maxlength="40" placeholder="Escriba su nombre completo"
-                required><br>
-            <br>
 
-            <b> Apellidos:</b> <br>
-            <input type="text" name="Apellido1" size="50" maxlength="40" placeholder="Escriba sus apellidos"
-                required><br>
-            <br>
-
-            <b>Correo:</b> <br>
-            <input type="email" name="correo" size="50" placeholder="Escriba su correo electronico" required><br><br>
-
-            <b>Contraseña:</b> <br><input type="password" name="clave " placeholder="Escriba su contraseña"
-                required><br><br>
-
-            <b>Teléfono/Celular:</b> <br>
-            <input type="number" name="Numero" placeholder="Escriba su numero" required> <br> <br>
-
-            <b>Solicitud:</b><br>
-            <textarea name="observaciones" rows=" 5" cols="50" placeholder="Escriba su solicitud o mensaje"
-                required></textarea><br> <br>
-
-            <div class="enviar">
-                <input type="submit" value="Enviar">
-            </div>
-
-        </div>
-        -->
         <!--PIE DE PAGINA-->
         <footer>
             <div class="foot">
@@ -183,8 +154,8 @@
                     <div class="inst">
                         <a href="https://www.instagram.com/"><i class="fab fa-instagram instagram"></i></a>
                     </div>
-                    
-                   
+
+
                 </div>
                 <div class="cpoyrigth">
                     <div class="credit">
@@ -196,12 +167,21 @@
                         <a href=""><i class="fas fa-phone-alt phone"></i></a>
                     </div>
                     <h3>Contáctanos <br> 3152739848 </h3>
-                   
+
                 </div>
-    
+
             </div>
+
+
+            <script src="./frmContacto.js"> </script>
         </footer>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"></script>
+
 </body>
 
 </html>
-
