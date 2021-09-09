@@ -44,7 +44,7 @@
 
 .btn-primar{
  background-color: var(--colorSec2) !important;
- 
+ width: 100%;
 }
 
 
@@ -58,3 +58,14 @@
 .footercolor{
     background-color: var(--colorIni1) !important;
 }
+
+.photo img {    
+    height: 120%;
+    
+}
+
+.btn-prim{
+    background-color: var(--colorSec2) !important;
+    width: 50%;
+    
+   }
