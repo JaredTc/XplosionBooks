@@ -1,6 +1,9 @@
 :root{
-  
     --colorIni1:#006d77;
+    --colorSec2: #83c5be;
+    --colorTerc3: #edf6f9;
+    --colorfour4: #ffddd2;
+    --colorfive5: #e29578;
 }
 body{
     font-family: 'Mukta', sans-serif;
@@ -30,7 +33,7 @@ h1{
 
 .cuerpo figure{
 position:relative;
-height: 290px;
+height: 390px;
 cursor: pointer;
 width: 350px;
 overflow:hidden;
@@ -40,6 +43,7 @@ border: black solid 1px;
 }
 
 .cuerpo figure img{
+    
 width: 100%;
 height: 100%;
 transition: all 400ms ease-out;
@@ -94,9 +98,6 @@ margin-top: 30px;
 }
 
 
-
-
-
 .containerf{
     display: flex;
     justify-content: center;
@@ -111,7 +112,6 @@ justify-content: center;
 }
 
 .card-body{
-   
     width: 100%;
     text-align: center;
     padding:5px;
@@ -146,3 +146,71 @@ html,body{
 .card-icon{
     font-size: 100px;
 }
+
+
+.contacto{
+    display: flex;
+   position: relative;
+    justify-content: center;
+}
+
+.form{
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    
+}
+
+.spac{
+    position: relative;
+    font-size: 100%;
+    padding-top: 8%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+
+.buton{
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+.btn {
+    width: 50%;
+   color: #006d77;
+   border: 1px solid var(--colorSec2);
+}
+
+.spac input{
+    font-family: 'Mukta', sans-serif;
+
+    width: 100%;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid var(--colorSec2);
+    font-size: 100%;
+}
+
+.buton button:hover{
+    background-color: var(--colorSec2);
+    color: white;
+}
+.txt textarea{
+    font-family: 'Mukta', sans-serif;
+    border-radius: 6px;
+    border-color: var(--colorSec2);
+    font-size: 100%;
+}
+
+.inpu{
+    font-family: 'Mukta', sans-serif;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
